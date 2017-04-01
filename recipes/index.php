@@ -104,7 +104,7 @@
                                 <h4>Search Recipe</h4>
                                 <p class="mt-15">Search your recipe by select specific ingredients.</p>
 
-                                <a href="#" class="btn btn-primary btn-sm">Get started</a>
+                                <a href="search_recipe.php" class="btn btn-primary btn-sm">Get started</a>
 
                             </div>
 
@@ -136,7 +136,7 @@
                                 </div>
 
                                 <h4>Add Ingredients</h4>
-                                <p class="mt-15">Add Ingredients Which was used in your cooking items.</p>
+                                <p class="mt-15">Add Ingredients Which are available in the home.</p>
 
                                 <a href="#" class="btn btn-primary btn-sm">Get started</a>
 
