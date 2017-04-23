@@ -2,6 +2,10 @@
 require 'classes/admin.php';
 $admin=new Admin();
 $result=$admin->all_ingredients();
+if(isset($_POST['btn']))
+{
+    $message = $admin->add_recipe($_POST, $_FILES);
+}
 ?>
 
 <!doctype html>
@@ -91,12 +95,58 @@ $result=$admin->all_ingredients();
         <br>
         <br>
         <div align="center"><h1 class="form-group">Add Recipe</h1></div>
-        <form action="">
+        <?php unset($_POST); if(isset($message)){?>
+        <h4 class="text-center"><?php echo $message?></h4>
+        <?php }?>
+        <form method="post" enctype="multipart/form-data">
             <div class="row">
                 <div class=" col-md-offset-2 col-sm-10 col-md-8">
                     <div class="form-group">
                         <label>Recipe Name</label>
-                        <input type="text" class="form-control" placeholder="Recipe Name">
+                        <input name="rname" type="text" class="form-control" placeholder="Recipe Name" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Cooking Time</label>
+                        <input name="rcookingtime" type="number" class="form-control" placeholder="Recipe Cooking Time" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Calories</label>
+                        <input name="rcalories" type="number" class="form-control" placeholder="Calories">
+                    </div>
+                    <div class="form-group">
+                        <label>Carbs</label>
+                        <input name="rcarbs" type="number" class="form-control" placeholder="Carbs">
+                    </div>
+                    <div class="form-group">
+                        <label>Fat</label>
+                        <input name="rfat" type="number" class="form-control" placeholder="Fat">
+                    </div>
+                    <div class="form-group">
+                        <label>Protein</label>
+                        <input name="rprotein" type="number" class="form-control" placeholder="Protein">
+                    </div>
+                    <div class="form-group">
+                        <label>Select Ingredients</label>
+                        <select class="selectpicker show-tick form-control" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" multiple name="ing[]">
+                            <?php while ($row=mysql_fetch_assoc($result)){?>
+                                <option value="<?php echo $row['ingredient_id']?>" ><?php echo $row['ingredient_name']?></option>
+                            <?php }?>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Ingredients Details</label>
+                        <textarea name="rind" class="bootstrap3-wysihtml5 form-control" placeholder="Enter text ..." style="height: 200px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Recipe Details</label>
+                        <textarea name="rd" class="bootstrap3-wysihtml5 form-control" placeholder="Enter text ..." style="height: 200px;" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Photos</label>
+                        <input  type="file" name="rimage" multiple id="form-photos">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="btn" class="btn btn-block btn-success">
                     </div>
                 </div>
             </div>
