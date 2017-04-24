@@ -25,19 +25,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
+            <state relative-caret-position="520">
               <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_recipe.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search_recipe.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search_recipe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1632">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="124" column="52" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,31 +57,32 @@
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="44" />
+            <state relative-caret-position="268">
+              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
               <folding>
-                <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-                <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-                <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-                <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-                <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-                <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-                <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-                <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+                <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+                <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+                <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+                <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+                <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+                <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+                <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_recipe.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_recipe.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_recipe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,11 +93,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/classes/db_connect.php" />
-        <option value="$PROJECT_DIR$/search_recipe.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/classes/admin.php" />
         <option value="$PROJECT_DIR$/add_recipe.php" />
+        <option value="$PROJECT_DIR$/classes/admin.php" />
+        <option value="$PROJECT_DIR$/search_recipe.php" />
       </list>
     </option>
   </component>
@@ -139,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -180,10 +184,13 @@
               <option name="myItemId" value="asset" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,11 +266,12 @@
       <workItem from="1492493442337" duration="1354000" />
       <workItem from="1492541785639" duration="606000" />
       <workItem from="1492618728932" duration="11903000" />
+      <workItem from="1493058857524" duration="5987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37135000" />
+    <option name="totallyTimeSpent" value="43122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -314,9 +322,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search_recipe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_ingredients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -324,10 +363,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -344,14 +406,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-            <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-            <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
           </folding>
         </state>
       </provider>
@@ -368,7 +434,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -376,10 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,14 +461,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-            <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-            <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
           </folding>
         </state>
       </provider>
@@ -420,7 +489,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,10 +499,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -440,14 +508,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-            <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-            <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
           </folding>
         </state>
       </provider>
@@ -464,7 +536,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,10 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -484,14 +555,18 @@
         <state relative-caret-position="323">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-            <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-            <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
           </folding>
         </state>
       </provider>
@@ -583,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_ingredients.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -599,38 +666,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search_recipe.php">
+    <entry file="file://$PROJECT_DIR$/add_recipe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="44" />
+        <state relative-caret-position="268">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
           <folding>
-            <marker date="1492637237553" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
-            <marker date="1492637237553" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
-            <marker date="1492637237553" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
-            <marker date="1492637237553" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="271:325" placeholder="SELECT * fro... tbl_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="1555:1685" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1701" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1724" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1795" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="1555:1836" placeholder="INSERT INTO tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="2066:2141" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="2066:2147" placeholder="INSERT INTO tbl_recipe_ingredients... " />
+            <marker date="1493063816524" expanded="true" signature="3126:3199" placeholder="INSERT INTO tbl_singredients... " />
+            <marker date="1493063816524" expanded="true" signature="3258:3441" placeholder="SELECT * FRO... tbl_recipe" />
+            <marker date="1493063816524" expanded="true" signature="3307:3439" placeholder="SELECT recip... tbl_recipe_ingredients" />
+            <marker date="1493063816524" expanded="true" signature="3381:3438" placeholder="SELECT tbl_i... tbl_singredients" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_recipe.php">
+    <entry file="file://$PROJECT_DIR$/asset/images/medicine.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_types.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        <state relative-caret-position="40">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="124" column="52" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#7;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#8;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

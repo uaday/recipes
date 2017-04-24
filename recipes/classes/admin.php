@@ -70,4 +70,22 @@ class Admin
             return $message;
         }
     }
+    public function clear_table()
+    {
+        $sql="TRUNCATE TABLE tbl_singredients";
+        mysql_query($sql);
+    }
+    public function get_recipes($data)
+    {
+        $sql3="TRUNCATE TABLE tbl_singredients";
+        mysql_query($sql3);
+        foreach ($data['ing'] as $in)
+        {
+            $sql="INSERT INTO tbl_singredients(tbl_ingredient_ingredient_id) VALUES ('$in')";
+            mysql_query($sql);
+        }
+        $sql2="SELECT * FROM tbl_recipe WHERE recipe_id NOT IN (SELECT recipe_id FROM tbl_recipe_ingredients WHERE ingredients_id NOT IN (SELECT tbl_ingredient_ingredient_id FROM tbl_singredients) )";
+        $result=mysql_query($sql2);
+        return $result;
+    }
 }

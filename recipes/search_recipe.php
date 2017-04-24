@@ -2,6 +2,11 @@
 require 'classes/admin.php';
 $admin=new Admin();
 $result=$admin->all_ingredients();
+$admin->clear_table();
+if(isset($_POST['btn']))
+{
+    $result1=$admin->get_recipes($_POST);
+}
 ?>
 
 <!doctype html>
@@ -102,7 +107,7 @@ $result=$admin->all_ingredients();
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label class="text-center"><h3>Select Ingredients</h3></label>
-                                    <select class="selectpicker show-tick form-control" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" multiple>
+                                    <select class="selectpicker show-tick form-control" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" multiple name="ing[]">
                                         <?php while ($row=mysql_fetch_assoc($result)){?>
                                             <option value="<?php echo $row['ingredient_id']?>" ><?php echo $row['ingredient_name']?></option>
                                         <?php }?>
@@ -111,6 +116,25 @@ $result=$admin->all_ingredients();
                                 </div>
                             </div>
                         </form>
+                    </div>
+
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td>Image</td>
+                                <td>Recipe Name</td>
+                                <td>Action</td>
+                            </tr>
+                            <?php if(isset($result1)){?>
+                                <?php while ($row=mysql_fetch_assoc($result1)){?>
+                                    <tr>
+                                        <td><img src="asset/..<?php echo $row['image']?>" style="height: 100px;width: 200px"></td>
+                                        <td><?php echo $row['recipe_name']?></td>
+                                        <td><a href="#">View</a></td>
+                                    </tr>
+                                <?php }?>
+                            <?php }?>
+                        </table>
                     </div>
 
                 </div>
