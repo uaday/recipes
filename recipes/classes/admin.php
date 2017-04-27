@@ -88,4 +88,24 @@ class Admin
         $result=mysql_query($sql2);
         return $result;
     }
+    public function show_recipe_by_recipe_id($recipe_id)
+    {
+        $sql="SELECT * FROM tbl_recipe WHERE recipe_id='$recipe_id'";
+        $result=mysql_query($sql);
+        return $result;
+    }
+    public function ingredients_list($recipe_id)
+    {
+        $sql="SELECT i.ingredient_id,i.ingredient_name ii FROM tbl_recipe_ingredients r,tbl_ingredients i WHERE r.recipe_id='$recipe_id' AND r.ingredients_id=i.ingredient_id";
+        $result=mysql_query($sql);
+        return $result;
+    }
+    public function add_ingredients($data)
+    {
+        $sql="INSERT INTO tbl_ingredients(ingredient_name) VALUES ('$data[iname]')";
+        if(mysql_query($sql));
+        $message="Ingredients Upload";
+        return $message;
+
+    }
 }

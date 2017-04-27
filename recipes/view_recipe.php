@@ -1,12 +1,11 @@
 <?php
 require 'classes/admin.php';
 $admin=new Admin();
-$result=$admin->all_ingredients();
 $admin->clear_table();
-if(isset($_POST['btn']))
-{
-    $result1=$admin->get_recipes($_POST);
-}
+$recipe_id=$_GET['recipe_id'];
+$result1=$admin->show_recipe_by_recipe_id($recipe_id);
+$row1=mysql_fetch_assoc($result1);
+$result2=$admin->ingredients_list($recipe_id);
 ?>
 
 <!doctype html>
@@ -103,39 +102,39 @@ if(isset($_POST['btn']))
                 <div class="category-group-wrapper with-background">
 
                     <div class="row">
-                        <form action="#" method="post">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label class="text-center"><h3>Select Ingredients</h3></label>
-                                    <select class="selectpicker show-tick form-control" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" multiple name="ing[]">
-                                        <?php while ($row=mysql_fetch_assoc($result)){?>
-                                            <option value="<?php echo $row['ingredient_id']?>" ><?php echo $row['ingredient_name']?></option>
-                                        <?php }?>
-                                    </select>
-                                    <input type="submit" class="btn btn-search btn-block " name="btn" value="Search Recipe">
-                                </div>
+                        <div class="col-md-offset-1 col-md-10">
+                            <div class="col-md-12">
+                                <img src="asset/../<?php echo $row1['image']?>" alt="image" style="height: 200px;width: 100%">
                             </div>
-                        </form>
+                            <div class="col-md-12">
+                                <br>
+                                <label ><h4><strong>Recipe Name:</strong>  <?php echo $row1['recipe_name']?> | <strong>Cooking Time: </strong> <?php echo $row1['cooking_time']?> min</h4></label>
+                            </div>
+                            <hr>
+                            <div class="col-md-12">
+                                <label><h4><strong>Health: </strong> Calories: <?php echo $row1['calories']?>,Carbs: <?php echo $row1['carbs']?>,Fat: <?php echo $row1['fat']?>,Protein: <?php echo $row1['protein']?></h4></label>
+                            </div>
+                            <hr>
+                            <div class="col-md-12">
+                                <label><h4><strong>Ingredients: </strong></h4></label>
+                                <ul>
+                                    <?php while($row2=mysql_fetch_assoc($result2)){?>
+                                    <li><?php echo $row2['ii']?></li>
+                                    <?php }?>
+                                </ul>
+                            </div>
+                            <div class="col-md-12">
+                                <label><h4><strong>Ingredients Description: </strong></h4></label>
+                                <p><?php echo $row1['ingredient_recipe_details']?></p>
+                            </div>
+                            <hr>
+                            <div class="col-md-12">
+                                <label><h4><strong>Description: </strong></h4></label>
+                                <p><?php echo $row1['description']?></p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="row">
-                        <table class="table table-bordered">
-                            <tr>
-                                <td>Image</td>
-                                <td>Recipe Name</td>
-                                <td>Action</td>
-                            </tr>
-                            <?php if(isset($result1)){?>
-                                <?php while ($row=mysql_fetch_assoc($result1)){?>
-                                    <tr>
-                                        <td><img src="asset/..<?php echo $row['image']?>" style="height: 100px;width: 200px"></td>
-                                        <td><?php echo $row['recipe_name']?></td>
-                                        <td><a href="view_recipe.php?recipe_id=<?php echo $row['recipe_id']?>">View</a></td>
-                                    </tr>
-                                <?php }?>
-                            <?php }?>
-                        </table>
-                    </div>
 
                 </div>
 
